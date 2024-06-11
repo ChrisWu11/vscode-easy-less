@@ -1,0 +1,9 @@
+.home {
+  background-color: #f8f8f8;
+  padding: 20rpx;
+}
+.home-title {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
