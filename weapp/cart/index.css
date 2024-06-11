@@ -7,8 +7,8 @@
   border-bottom: 1px solid #f0f0f0;
 }
 .cart .cart-item .cart-item-img {
-  width: 100rpx;
-  height: 100rpx;
+  width: 50rpx;
+  height: 50rpx;
   margin-right: 20rpx;
 }
 .cart .cart-item .cart-item-info {
@@ -29,10 +29,9 @@
   color: #666;
 }
 .cart .cart-total {
-  display: flex;
-  justify-content: space-between;
-  padding: 20rpx;
-  border-top: 1px solid #f0f0f0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20rpx;
 }
 .cart .cart-total .cart-total-price {
   font-size: 32rpx;
@@ -47,3 +46,8 @@
   color: #fff;
   border-radius: 10rpx;
 }
+
+.cart .cart-total .cart-total-btn:disabled {
+  background-color: #ccc;
+}
+
